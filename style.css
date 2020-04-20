@@ -1,0 +1,497 @@
+* { margin: 0px;
+    padding: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+     }
+
+p { font-size: 20px;
+    color:#6e6a6a  }
+
+a { text-decoration: none!important }
+
+li { list-style: none!important}
+a:hover { text-decoration:none!important }
+
+
+
+
+
+
+
+.header { width: 100%;
+          height: 100vh;
+          background-image: url('ferrarihome.jpg');
+          background-size: cover;
+          clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);          
+          position: relative; }
+
+
+
+.navbar:before { content: "";
+                 position: absolute;
+                 left: 0%;
+                 right: 0%;
+                 top:0%;
+                 bottom: 0%;
+                 background: linear-gradient(360deg, #e7c641, #dd0a1d 40%);
+                 opacity: 0.6;
+                 z-index: -1; }
+
+
+
+.header:before { content: "";
+                 position: absolute;
+                 left: 0%;
+                 right: 0%;
+                 top:0%;
+                 bottom: 0%;
+                 background: linear-gradient(180deg, #474641 90%, #474641 10%);
+                 opacity: 0.2;
+                 z-index: -5; }
+
+
+
+.brand { font-size: 35px;
+          color: #5e0e06;
+          text-shadow: 2px 2px 4px #5e0e06;
+           letter-spacing: 12px;
+            }
+
+
+ 
+.nav-item a { color: #fff;
+               font-size: 20px;               
+               margin-right: 20px }
+
+
+
+
+.header-section { 
+                  width: 100%;
+                  height: inherit;
+                  color:#fff;
+                  text-shadow: 1px 1px 4px white;
+                  text-align: center;
+                  position: relative;
+                  }
+
+.center-text { width: 100%;
+               height: auto;
+               position: absolute;
+               left: 50%;
+               top: 50%;
+               transform: translate(-50%, -50%);
+               -ms-transform: translate(-50%, -50%);
+               -webkit-transform: translate(-50%, -50%);
+           }
+
+
+
+.header-buttons a { border: 1px solid #2b2828;
+                  border-radius: 100px;
+                  margin: 0 10px;
+                  padding:12px 36px;
+                  outline: none;
+                  color: #2b2828;
+                  font-size: 20px;
+                  font-weight: 500;
+                  text-align: center;
+                  }
+
+.header-buttons a:hover { color: #fff;
+                     background-color: #2b2828;
+                     transition: 0.6s }
+
+
+.center-text p { padding: 10px 0px 5px 0px }
+
+
+.three-div  {width: 100%;
+             height: auto;
+             margin: 100px 0px;            
+             text-align: center;}
+
+
+
+.extra-div { background-color: #fbfafa;
+             padding: 10px 10px !important ;
+             border-radius: 20px;
+             transition: 0.6s}
+
+
+
+.extra-div h2 { font-family: 'El Messiri', sans-serif; 
+                text-transform: uppercase;
+                font-size: 25px;
+                color: #2b2828;
+                font-weight: bold;
+                word-spacing: 5px;
+                margin: 25px 0px 20px 0px;
+                 }
+
+
+
+.extra-div p { font-family: 'El Messiri', sans-serif;
+               font-size: 18px;
+                color: #2b2828;
+                word-spacing: 2px }
+
+.extra-div:hover { box-shadow: 5px 5px 5px lightgray;
+                   transform: translateY(-25px);}
+
+
+/**********Service Offers Starts ********/
+
+.service-offer { background-color: #f8f8f8;
+                  padding: 50px 0px;
+                  margin-bottom: 50px }
+
+
+
+.headings h1 { font-size: 26px;
+            font-weight: bold; }
+
+.headings p { font-size: 16px;
+              margin-bottom: 30px }
+
+.names h2   { font-size: 20px;
+              font-weight: bold;
+              padding: 7px 0px; 
+             }
+
+.service-div h2 { font-size: 20px;
+                   font-weight: bold;
+                   margin-top: 10px;
+
+                     }
+
+
+.service-div p { font-size: 16px;}
+
+                   
+
+.service-icons { display: flex;
+                 justify-content: center;
+                 align-items: center;}
+                  
+ /**********Service Offers ends ********/
+
+
+
+ /********** Projects done section starts ********/
+
+
+ .project-section { margin: 100px 0;
+                    background: linear-gradient(180deg, #d53369 0%, #daae51 100% );
+                    padding: 50px 0;
+                    border: 1px solid gray;
+                    color: #fff;
+                    text-shadow: 1px 1px 2px maroon }
+
+ .project-section p { font-size: 16px;
+                      color: white}
+
+
+ /********** Projects done section ends ********/                    
+                    
+                     
+
+
+
+
+
+
+ /********** Pricing section starts ********/
+
+
+
+.carpricing { width: 100%;
+              height: 100vh;
+              padding:50px;
+              position: relative;}
+
+.carpricing h1 { margin-bottom: 50px;
+                 font-size: 20px; 
+                 text-transform: uppercase;
+                 }
+
+.carpricing p { font-size: 15px;
+	             padding: 5px;
+	             font-style: italic;
+	             margin-bottom: 20px}
+
+.carpricing h4 { word-spacing: 5px;
+                 font-weight: 900;
+                 margin-bottom: 20px
+                 }
+
+.carpricing:before { content: "";
+                 position: absolute;
+                 left: 0%;
+                 right: 0%;
+                 top:0%;
+                 bottom: 0%;
+                 background: linear-gradient(155deg, #922626 55%, #fff 0%);
+                 z-index: -1; }
+
+
+
+.footer     { display: flex;
+               justify-content: center;
+               align-items: center; }
+
+
+
+.footer a     { padding: 10px 25px;
+			   border: 1px solid #454242;
+               background-color: transparent;
+               color: #454242;
+               border-radius: 100px;}
+               
+
+.card .footer a:hover       { background-color: #454242;
+                       color: #fff;
+                       transition: 0.3s;
+                       box-shadow: 2px 2px 4px gray }
+
+
+
+               
+.card:hover { transform: translateY(-20px);
+	          transition: 0.6s;
+	          box-shadow: 2px 2px 4px gray}
+
+
+
+ /********** Pricing section ends ********/
+
+
+
+
+
+ /********** Our Happy Clients starts ********/
+
+.happy-clients { width: 100%;                
+                 padding: 100px 0;
+                 }
+
+.box { border: 1px solid rgba(0,0,0,0.2);
+       box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+       border-radius: 3px;
+       transition: 0.3s ease;
+        }
+
+
+.box p { font-size: 15px;
+         margin-top: 15px;
+         color: #6e6a6a;
+          }
+
+.box h1{ font-size: 26px }
+
+.box h2{ font-size: 20px;
+          color: #6e6a6a}
+
+
+
+.box:hover { background-color:#922626  }
+
+
+.box:hover p { color: #fff;}
+.box:hover h1 { color: #fff;}               
+.box:hover h2 { color: #fff;}
+
+
+
+.carousel-indicators { position: absolute;
+                       bottom: -60px!important;
+                       }
+
+.carousel-indicators li { background-color: #922626!important;}
+
+.box a img  { position: relative;
+              height: 150px;
+              width: 150px;
+              border-radius: 50%;
+              margin-top: 20px }
+
+
+.box a:after { content: "\f10d";
+               font-family: FontAwesome;
+               width: 40px;
+               height: 40px;
+               background-color: #2e8ebf;
+               border-radius: 50%;
+               position: absolute;
+               left: 60%;
+               bottom: 70%;
+               color: #fff;
+               display: flex;
+               justify-content: center;
+               align-items: center;}
+
+
+  /********** Our Happy Customers ends ********/
+
+
+
+ /********** Contact Us starts ********/
+
+
+ .contact-us { width: 100%;
+	          height: 100vh;
+	          padding: 100px 0;
+	          position: relative; }
+
+ .contact-us h1 { margin-bottom: 20px;
+                  font-weight: 800;
+                  }
+
+.contact-us p { text-transform: capitalize; 
+              }
+
+.contact-us:after { 
+	            content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+              background: linear-gradient(330deg, rgba(180,54,54,100) 55%, #fff 0%);            
+              z-index: -1;
+               }
+              
+.form-button button { padding: 5px 30px;
+                      background-color: transparent;
+                      border: 1px solid #fff;
+                      border-radius: 100px;
+                      color: #fff;
+                      margin-top: 0px;
+                      box-shadow: 0 0 2px 2px white }
+
+.form-button button:hover { background-color: #6C6766;
+                            color: #fff;
+                            transition: 0.6s }
+
+
+
+ /********************** Contact Us Ends  *********************/
+
+
+
+
+ /********************** News letter subscribe section starts  *********************/
+
+
+
+ .news-letter { width: 100%;
+                height: auto;
+                padding: 80px 0px }
+
+
+
+.news-letter h1 { text-transform: uppercase;
+                   font-size: 1.8rem;
+                   margin-bottom: 50px }
+
+
+
+.news-input { border-radius: 100px 0 0 100px!important;
+              min-width: 150px;
+              min-height: 40px
+              }
+
+.input-group-text { border-radius: 0 100px 100px 0!important;
+                    background-color: black!important;
+                    color: #fff!important;
+                    width: 120px }
+
+
+
+
+
+ /********************** News letter subscribe section ends  *********************/
+
+
+
+  /********************** Footer section starts *********************/
+
+.footersection { width: 100%;
+                 height: auto;
+                 padding: 50px 0 50px 0;
+                 background-color: #b83636;
+                 position: relative;
+                  }
+.footersection h3 { font-size: 1.4rem;
+                    font-weight: bold;
+                    text-transform: uppercase;;
+                    color: #fff;
+                    letter-spacing: 1px;
+                    margin-bottom: 25px;
+                    text-shadow: 1px 1px 4px white;
+                  }
+
+.footersection p { font-size: 16px;
+                   color: #fff;
+
+}
+
+.footersection li a  { font-size: 0.9rem;
+                        font-weight: 500;
+                        line-height: 1.2rem;
+                        text-transform: capitalize;
+                        color: #fff;
+                        text-decoration: none;
+
+
+}
+.footersection li a:hover { color: #000;}
+
+
+
+
+  /********************** Footer section ends  *********************/
+
+
+/********************** Scroll icon  *********************/
+
+
+#myBtn { 
+         position: fixed;
+         bottom: 20px;
+         right: 40px;
+         z-index: 99;
+         border: none;
+         color: #fff;
+         background-color: #b83636;
+         padding: 10px;
+         border-radius: 100px }
+
+
+#myBtn:hover { background-color: gray }
+
+
+/********************** Scroll icon end *********************/
+
+
+
+
+/********************** Media Queries *********************/
+
+
+@media (max-width: 768px){
+
+
+  .nav-item { text-align: center; }
+
+   .cards { padding: 10px 0 }
+
+   .happy-clients { margin-top: 1000px }
+
+   .footer-div:nth-child(2) {
+             text-align: left !important;
+   }
+
+   .footer-div { margin-top: 30px  }
+
+   
+}
